@@ -57,8 +57,7 @@ p{
 .header{
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center; /**left center rigth up bottom**/
-    margin-bottom: 2rem;
+    background-position: center center;
 }
 
 .container{
@@ -142,6 +141,7 @@ p{
     text-align: center;
     font-size: 1.8rem;
     color: var(--blanco);
+    margin-left: 2rem;
 }
 
 .box{
