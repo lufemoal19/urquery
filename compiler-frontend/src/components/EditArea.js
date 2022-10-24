@@ -2,10 +2,11 @@ import React from 'react'
 
 export const EditArea = () => {
   return (
-    <div>
-        <h2>Edit Area</h2>
-        <section>
-            <textarea>
+    <div className='box'>
+        <h4>Edit Area</h4>
+        <section className='box__text__area'>
+    
+            <textarea placeholder='CODE HERE' cols='50' rows='20'>
                 
             </textarea>
         </section>

@@ -1,6 +1,9 @@
 import React from 'react'
+import '../style/Style.css';
+import { Buttons } from './Buttons';
 import { DocumentArea } from './DocumentArea'
 import { EditArea } from './EditArea'
+import { Footer } from './Footer';
 import { ResultArea } from './ResultArea'
 
 // [1] EA
@@ -9,10 +12,21 @@ import { ResultArea } from './ResultArea'
 export const Main = () => {
   return (
     <div>
-        <p>Main Component</p>
-        <EditArea></EditArea>
-        <ResultArea></ResultArea>
-        <DocumentArea></DocumentArea>
+        <header className='header'>
+          <Buttons></Buttons>
+        </header>
+        <main className='container'>
+          <div className='main__container'>
+          <EditArea></EditArea>
+          <ResultArea></ResultArea>
+        </div>
+          <DocumentArea></DocumentArea>
+        </main>
+
+        <div>
+          <Footer></Footer>
+        </div>
+  
     </div>
   )
 }

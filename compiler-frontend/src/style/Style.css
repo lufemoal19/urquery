@@ -1,11 +1,13 @@
-:root{
-    --main-bg-color: #FFF;
-    --box-bg-color: #000;
-    --text-color: #000;
-    --main-font: 'PT Sans', sans-serif;
+:root{ /*paleta de colores*/
+    --blanco: #FFFFFF;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --grisClaro: #DFE9F3;
 }
 
-html{
+html{/* box model */
     box-sizing: border-box;
     font-size: 62.5%; /** 1rem = 10px**/
 }
@@ -15,7 +17,6 @@ html{
 }
 
 body{
-    font-family: var(--fuenteParrafos);
     font-size: 1.6rem;
     line-height: 2;
 }
@@ -49,8 +50,114 @@ img{
     max-width: 100%;
 }
 
+p{
+    line-height: 2;
+}
+
+.header{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; /**left center rigth up bottom**/
+    margin-bottom: 2rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 1rem;
+}
+
+@media (min-width: 768px){
+    .main__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 0;
+    }
+}
+
 .main__container{
     display: grid;
-    gap: 2rem;
-    
+    grid-template-rows: 2fr;
+}
+
+.bar{
+    padding-top: 1rem;
+}
+
+@media (min-width: 768px){
+    .bar{
+        display: flex;
+        justify-content: space-between; /** Alinear horizontal**/
+        align-items: center; /** Alinear vertical **/
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+.button{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: .5rem;
+    width: 90%;
+    text-align: center;
+    border: none;
+}
+
+.button:hover{
+    cursor: pointer;
+}
+
+.button__play{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+
+@media (min-width: 768px) {
+    .nav{
+        display: flex;
+        gap: 1rem;
+        justify-content: space-evenly;
+        flex-basis: calc(30% - 1px);
+    }
+}
+
+.nav{
+    padding: 1rem;
+}
+
+.nav__link{
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blanco);
+}
+
+.box{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.box__text__area{
+    width: 100%;
+    border: none;
+    border-radius: 1rem;
+}
+
+.footer{
+    text-align: center;
+    font-size: 2rem;
+    color: var(--blanco);
+    padding: 1rem;
 }

@@ -14,12 +14,12 @@ export const DocumentArea = () => {
   console.log(data);
 
   return (
-    <div>
-        <h2>Document Area</h2>
+    <div className='box'>
+        <h4>Document Area</h4>
         <section>
          <button onClick={() => setFetch(true)}>Fetch Data</button>
          <p>{data}</p>
-            <textarea>
+            <textarea className='' disabled  cols='70' rows='15'>
                 {data}
             </textarea>
         </section>
