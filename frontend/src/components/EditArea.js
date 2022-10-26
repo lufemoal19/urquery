@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 
 export const EditArea = () => {
-  const [text, setText] = useState('Hola');
+  const [text, setText] = useState(null);
   const [fetchData, setFetch] = useState(false);
   const updateText = newText =>{
     setText(newText);
@@ -15,7 +15,7 @@ export const EditArea = () => {
       const requestOptions = {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: text
+        body: "test"
       };
       fetch('http://localhost:8080/compile/compile', requestOptions)
       .then(response => response.json())

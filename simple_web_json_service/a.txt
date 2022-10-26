@@ -1,0 +1,7 @@
+a.stream().map(x -> x * x).filter(x -> x > 10).toList()
+
+mas bonito:
+a.stream()
+    .map(x -> x * x)
+    .filter(x -> x > 10)
+    .toList()

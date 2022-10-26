@@ -1,0 +1,90 @@
+server(started, 1665429902).
+/*Mon Oct 10 13:25:02 2022*/ request(1, 1665429902.307, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/18.0.1.1'),content_type('application/json')]).
+completed(1, 0.015625, 46, 200, ok).
+/*Mon Oct 10 13:28:09 2022*/ request(2, 1665430089.778, [peer(ip(127,0,0,1)),method(get),request_uri(/),path(/),http_version(1-1),host(localhost),port(8000),connection('keep-alive'),sec_ch_ua('"Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"'),sec_ch_ua_mobile('?0'),sec_ch_ua_platform('"Windows"'),upgrade_insecure_requests('1'),user_agent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'),sec_fetch_site(none),sec_fetch_mode(navigate),sec_fetch_user('?1'),sec_fetch_dest(document)]).
+completed(2, 0.0, 519, 200, ok).
+/*Mon Oct 10 13:28:09 2022*/ request(3, 1665430089.825, [peer(ip(127,0,0,1)),method(get),request_uri('/favicon.ico'),path('/favicon.ico'),http_version(1-1),host(localhost),port(8000),connection('keep-alive'),sec_ch_ua('"Google Chrome";v="105", "Not)A;Brand";v="8", "Chromium";v="105"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36'),sec_ch_ua_platform('"Windows"'),sec_fetch_site('same-origin'),sec_fetch_mode('no-cors'),sec_fetch_dest(image),referer('http://localhost:8000/')]).
+completed(3, 0.0, 93, 404, error(404,'/favicon.ico')).
+server(started, 1666410881).
+/*Fri Oct 21 21:54:41 2022*/ request(1, 1666410881.038, [peer(ip(127,0,0,1)),method(get),request_uri(/),path(/),http_version(1-1),host(localhost),port(8000),connection('keep-alive'),sec_ch_ua('"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"'),sec_ch_ua_mobile('?0'),sec_ch_ua_platform('"Windows"'),upgrade_insecure_requests('1'),user_agent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'),sec_fetch_site(none),sec_fetch_mode(navigate),sec_fetch_user('?1'),sec_fetch_dest(document),cookie(['ASP.NET_SessionId'=ldhgazwhlccfoxwshd4cuusc]),if_none_match('W/"8778-1665418635261"'),if_modified_since('Mon, 10 Oct 2022 16:17:15 GMT')]).
+completed(1, 0.03125, 490, 200, ok).
+/*Fri Oct 21 21:54:41 2022*/ request(2, 1666410881.424, [peer(ip(127,0,0,1)),method(get),request_uri('/favicon.ico'),path('/favicon.ico'),http_version(1-1),host(localhost),port(8000),connection('keep-alive'),sec_ch_ua('"Chromium";v="106", "Google Chrome";v="106", "Not;A=Brand";v="99"'),sec_ch_ua_mobile('?0'),user_agent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'),sec_ch_ua_platform('"Windows"'),sec_fetch_site('same-origin'),sec_fetch_mode('no-cors'),sec_fetch_dest(image),referer('http://localhost:8000/'),cookie(['ASP.NET_SessionId'=ldhgazwhlccfoxwshd4cuusc])]).
+completed(2, 0.0, 93, 404, error(404,'/favicon.ico')).
+/*Fri Oct 21 22:11:35 2022*/ request(3, 1666411895.136, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(3, 0.0, 46, 200, ok).
+server(stopped, 1666414069).
+server(started, 1666414690).
+/*Fri Oct 21 22:58:10 2022*/ request(1, 1666414690.130, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(1, 0.04687500000000001, 46, 200, ok).
+/*Fri Oct 21 22:59:57 2022*/ request(2, 1666414797.720, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(2, 0.0, 46, 200, ok).
+server(stopped, 1666415071).
+server(started, 1666592890).
+/*Mon Oct 24 00:28:09 2022*/ request(1, 1666592889.757, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(1, 0.015625, 46, 200, ok).
+/*Mon Oct 24 00:56:38 2022*/ request(2, 1666594598.416, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+/*Mon Oct 24 00:56:38 2022*/ request(3, 1666594598.416, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(3, 0.0, 46, 200, ok).
+completed(2, 0.0, 46, 200, ok).
+/*Mon Oct 24 00:56:42 2022*/ request(4, 1666594602.419, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(4, 0.0, 46, 200, ok).
+/*Mon Oct 24 00:56:59 2022*/ request(5, 1666594619.134, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(5, 0.0, 46, 200, ok).
+/*Mon Oct 24 00:58:07 2022*/ request(6, 1666594687.879, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(6, 0.0, 46, 200, ok).
+/*Mon Oct 24 00:58:32 2022*/ request(7, 1666594712.943, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(7, 0.0, 46, 200, ok).
+/*Mon Oct 24 00:59:22 2022*/ request(8, 1666594762.697, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(8, 0.0, 46, 200, ok).
+/*Mon Oct 24 01:00:37 2022*/ request(9, 1666594837.177, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(9, 0.0, 46, 200, ok).
+/*Mon Oct 24 01:02:00 2022*/ request(10, 1666594920.325, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(10, 0.0, 46, 200, ok).
+/*Mon Oct 24 01:02:58 2022*/ request(11, 1666594978.671, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(11, 0.0, 46, 200, ok).
+/*Mon Oct 24 01:02:58 2022*/ request(12, 1666594978.673, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(12, 0.0, 46, 200, ok).
+/*Mon Oct 24 01:03:14 2022*/ request(13, 1666594994.370, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(13, 0.0, 46, 200, ok).
+/*Mon Oct 24 01:04:04 2022*/ request(14, 1666595044.201, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(14, 0.0, 46, 200, ok).
+/*Mon Oct 24 01:04:05 2022*/ request(15, 1666595045.105, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(15, 0.0, 46, 200, ok).
+/*Mon Oct 24 01:10:02 2022*/ request(16, 1666595402.035, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(16, 0.0, 46, 200, ok).
+/*Mon Oct 24 01:10:50 2022*/ request(17, 1666595450.226, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(17, 0.0, 46, 200, ok).
+/*Mon Oct 24 01:11:33 2022*/ request(18, 1666595493.985, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(18, 0.0, 46, 200, ok).
+/*Mon Oct 24 01:13:21 2022*/ request(19, 1666595601.677, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(19, 0.0, 46, 200, ok).
+/*Mon Oct 24 01:14:06 2022*/ request(20, 1666595646.904, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(20, 0.0, 46, 200, ok).
+/*Mon Oct 24 01:14:32 2022*/ request(21, 1666595672.305, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(21, 0.0, 46, 200, ok).
+/*Mon Oct 24 01:14:58 2022*/ request(22, 1666595698.129, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(22, 0.0, 46, 200, ok).
+/*Mon Oct 24 01:19:08 2022*/ request(23, 1666595948.844, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(23, 0.0, 46, 200, ok).
+/*Mon Oct 24 01:21:52 2022*/ request(24, 1666596112.551, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(24, 0.015625000000000007, 46, 200, ok).
+/*Mon Oct 24 01:22:09 2022*/ request(25, 1666596129.289, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(25, 0.0, 46, 200, ok).
+server(started, 1666607383).
+/*Mon Oct 24 04:29:42 2022*/ request(1, 1666607382.980, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(1, 0.015625, 46, 200, ok).
+/*Mon Oct 24 04:30:49 2022*/ request(2, 1666607449.746, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(2, 0.0, 46, 200, ok).
+server(started, 1666750596).
+/*Tue Oct 25 20:16:36 2022*/ request(1, 1666750596.452, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(1, 0.015625, 46, 200, ok).
+/*Tue Oct 25 20:16:52 2022*/ request(2, 1666750612.582, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(2, 0.0, 46, 200, ok).
+/*Tue Oct 25 20:17:01 2022*/ request(3, 1666750621.553, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(3, 0.0, 46, 200, ok).
+/*Tue Oct 25 20:18:12 2022*/ request(4, 1666750692.014, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(4, 0.0, 46, 200, ok).
+/*Tue Oct 25 20:18:34 2022*/ request(5, 1666750714.399, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(5, 0.0, 46, 200, ok).
+/*Tue Oct 25 20:18:55 2022*/ request(6, 1666750735.174, [peer(ip(127,0,0,1)),method(post),request_uri('/add'),path('/add'),http_version(1-1),content_length(17),host(localhost),port(8000),user_agent('Java-http-client/19.0.1'),content_type('application/json')]).
+completed(6, 0.0, 46, 200, ok).

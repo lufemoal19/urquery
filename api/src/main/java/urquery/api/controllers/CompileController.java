@@ -1,9 +1,6 @@
 package urquery.api.controllers;
 
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.net.URI;
 import java.time.LocalDateTime;
@@ -14,10 +11,12 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-@RequestMapping(path = "compile")
+@RequestMapping(path = "/compile")
 public class CompileController {
 
-    @PostMapping
+
+    @CrossOrigin
+    @PostMapping("/compile")
     public Map<String,Object> compile(@RequestBody String data) throws Exception{
         String prologResponse = callPrologServer();
         Map<String,Object> result = new HashMap<>();

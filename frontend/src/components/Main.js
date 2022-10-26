@@ -4,7 +4,6 @@ import { Buttons } from './Buttons';
 import { DocumentArea } from './DocumentArea'
 import { EditArea } from './EditArea'
 import { Footer } from './Footer';
-import { New } from './New';
 import { ResultArea } from './ResultArea'
 
 // [1] EA
@@ -27,7 +26,6 @@ export const Main = () => {
         <div>
           <Footer></Footer>
         </div>
-
   
     </div>
   )

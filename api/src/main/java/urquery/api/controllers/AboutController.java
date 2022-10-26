@@ -3,22 +3,20 @@ package urquery.api.controllers;
 import org.json.JSONArray;
 import org.json.JSONObject;
 import org.springframework.http.MediaType;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.SortedMap;
 import java.util.TreeMap;
 
-@CrossOrigin(origins = "https://localhost:3000/")
 @RestController
-@RequestMapping(path = "about", produces = "application/json")
+@RequestMapping(path = "/about", produces = "application/json")
 public class AboutController {
 
-    @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    @CrossOrigin
+    @RequestMapping(method = RequestMethod.GET, path = "/about")
+//    @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
     public Map<String, Object> getAbout(){
         Map<String,Object> data = new LinkedHashMap<String,Object>();
         //JSONObject data = new JSONObject();
